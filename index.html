@@ -38,12 +38,11 @@
   <!-- ICONS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="bower_components/skeleton/css/normalize.css">
-  <link rel="stylesheet" href="bower_components/skeleton/css/skeleton.css">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Favicon
@@ -68,54 +67,149 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="container">
-    <div class="row page" >
-      <div class="one-half column">
 
-        <h4> daniele-bolla's place </h4>
-        <p> <b>{</b> Hi i'm developing a <i>nano-part of the web universe </i> <b>}</b> </p>
+    <div class="wrap">
+  <header>
+    <nav class="navbar menu navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">D W D</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="page-scroll" href="#about">about</a></li>
+            <li><a class="page-scroll" href="#portfolio">portfolio</a></li>
+            <li class="active"><a class="page-scroll" href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
       </div>
-      <div class="one-half column">
-        <nav class="social u-pull-right ">
-         
-          <a href="https://github.com/daniele-bolla" target="_blank" class="button button-social button-github"><i class="fa fa-github" aria-hidden="true"></i></a>
-          <a href="https://www.facebook.com/daniele.bolla" target="_blank"  class="button button-social  button-facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-          <a href="https://it.linkedin.com/in/daniele-bolla-50925058" target="_blank"  class="button button-social  button-linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/bolladaniele" target="_blank"  class="button button-social  button-twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/bolladaniele" target="_blank"  class="button button-social  button-google-plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-        </nav>
+    </nav>
+  </header>
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="center ">
+          <h1>Daniele Bolla Web Developer</h1>
+          <h4>{ Hi i'm developing a nano-part of the web universe }</h4>
+          <nav class="social text-center">
+            <a class="btn button-social button-github" target="_blank" href="https://github.com/daniele-bolla"><i aria-hidden="true" class="fa fa-github"></i></a>
+            <a class="btn button-social  button-facebook" target="_blank" href="https://www.facebook.com/daniele.bolla"><i aria-hidden="true" class="fa fa-facebook"></i></a>
+            <a class="btn button-social  button-linkedin" target="_blank" href="https://it.linkedin.com/in/daniele-bolla-50925058"><i aria-hidden="true" class="fa fa-linkedin"></i></a>
+            <a class="btn button-social  button-twitter" target="_blank" href="https://twitter.com/bolladaniele"><i aria-hidden="true" class="fa fa-twitter"></i></a>
+            <a class="btn button-social  button-google-plus" target="_blank" href="https://twitter.com/bolladaniele"><i aria-hidden="true" class="fa fa-google-plus"></i></a>
+          </nav>
+          <a href="#portfolio" class="btn btn-angle page-scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <img class="u-full-width" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Lago_d'Orta_visto_dal_Mottarone.jpg" alt="Daniele Bolla Web Developer Verbano-Cusio-Ossola" />
+  </section>
+  <section class="portfolio-section" id="portfolio">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="slider">
+          <!-- Full Page Image Background Carousel Header -->
+          <div id="myCarousel" class="carousel slide">
+            <!-- Indicators -->
+
+
+            <!-- Wrapper for Slides -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <a href="http://www.luxuryvillalakecomo.it/" target="_blank">
+                  <div class="fill" style="background-image:url('https://s3.amazonaws.com/awesomescreenshot/upload//266052/3d790879-6274-4af7-4a0d-27e436441bb8.png?AWSAccessKeyId=AKIAJSCJQ2NM3XLFPVKA&Expires=1461897715&Signature=Quypkn3auISDR9FLgSJp%2FXlstMg%3D');"></div>
+                  <div class="carousel-caption">
+                    <h2>www.luxuryvillalakecomo.it</h2>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <a href="http://domaitalii.ru/" target="_blank">
+                  <div class="fill" style="background-image:url('https://s3.amazonaws.com/awesomescreenshot/upload//266052/1cd812a7-3bb2-4ddc-6a6a-1fe5653c38ff.png?AWSAccessKeyId=AKIAJSCJQ2NM3XLFPVKA&Expires=1461897644&Signature=Nn0%2FDdqSB2EuxzvLZ%2FyPexvZG4Q%3D');"></div>
+                  <div class="carousel-caption">
+                    <h2>www.domaitalii.ru</h2>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <a href="http://www.agriturismovinaggia.it/" target="_blank">
+                  <div class="fill" style="background-image:url('https://s3.amazonaws.com/awesomescreenshot/upload//266052/43c167cd-4519-48b9-5ae5-5ae4c1682b3c.png?AWSAccessKeyId=AKIAJSCJQ2NM3XLFPVKA&Expires=1461898031&Signature=ufkDIj6kSe9w6PCfvLl5qPmZOVU%3D');"></div>
+                  <div class="carousel-caption">
+                    <h2>www.agriturismovinaggia.it</h2>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="icon-next"></span>
+            </a>
+
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div itemscope itemtype="http://schema.org/LocalBusiness">
+  </section>
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="center ">
+          <h1><i class="fa fa-paper-plane" aria-hidden="true"></i>  Contact me</h1>
+          <h3><i class="fa fa-envelope aria-hidden="true"></i> bolladaniele@gmail.com </h3>
+          <h3><i class="fa fa-phone" aria-hidden="true"></i> +39 3394713755 </h3>
 
-      <strong itemprop="name">Daniele Bolla Web Developer</strong>
-      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" >
-      <span itemprop="streetAddress">Via Lungo Lago Gramsci 27</span>, 
-      <span itemprop="addressLocality">Omegna (Verbano-Cusio-Ossola)</span>, 
-      <span itemprop="addressRegion">Piemonte</span>, 
-      <span itemprop="postalCode">28887</span>
-      </p>
-      <p>
-        <strong><i class="fa fa-paper-plane" aria-hidden="true"></i>  contact me on :</strong> 
-      <span><i class="fa fa-envelope" aria-hidden="true"></i> bolladaniele@gmail.com</span> &sol; 
-      <span itemprop="telephone"><i class="fa fa-phone"></i> +39 3394713755</span>
-      </p>
-
-      <hr />
-
-      <div>
+        </div>
+        <a href="#about" class="btn page-scroll arrowup "><i class="fa fa-angle-up"></i></a>
+      </div>
     </div>
-  </div>
+  </section>
+  <footer>
+  </footer>
+</div>
+    
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.easing/1.3/jquery.easing.1.3.min.js'></script>
 
-  
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <script>
+   
+$(window).scroll(function() {
+  if ($(".navbar").offset().top > 50) {
+    $(".navbar-fixed-top").addClass("top-nav-collapse");
+  } else {
+    $(".navbar-fixed-top").removeClass("top-nav-collapse");
+  }
+});
 
-  
-</body>
+//jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+  $('a.page-scroll').bind('click', function(event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+  });
+});
+    
+    </script>
 
+    
+    
+    
+  </body>
 </html>
