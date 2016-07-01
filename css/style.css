@@ -29,6 +29,12 @@ body h1 {
     padding: 0;
   }
 }
+@media(max-width:768px) {
+  .navbar-default .navbar-nav>li>a {
+      color: #777;
+      text-align: center;
+  }
+}
 
 body nav.top-nav-collapse {
   padding: 0;
@@ -69,7 +75,7 @@ body .arrowup {
   left: 0;
   bottom: 0;
   background: #222;
-  postion: absolute;
+  position: absolute;
 }
 
 section {
@@ -78,7 +84,7 @@ section {
 }
 
 .slider .item {
-  postion: relative;
+  position: relative;
 }
 
 .slider .fill {
@@ -89,7 +95,7 @@ section {
 .about-section {
   text-align: center;
   background: #fff;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/48/Lago_d'Orta_visto_dal_Mottarone.jpg");
+  background-image: url("https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/13118832_775895499179303_8295611816096080990_n.jpg?oh=93446f7d2bbc701a763e128a4a69b517&oe=579AC9F5");
   background-color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,10 +113,10 @@ section {
 }
 
 .contact-section {
-  text-align: center;
-  position: relative;
+  background: #95C2CF;
   background-image: url("http://static.simpledesktops.com/uploads/desktops/2010/10/18/PaperPlane.png");
-  background-color: #fff;
+  text-align: center;
+  background-color: #95C2CF;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -134,12 +140,15 @@ section {
 }
 
 .btn-angle {
-  margin-top: 10%;
-  border-radius: 0;
-  font-size: 64px;
+  margin: 10% auto;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
   font-weight: 700;
-  position: absolute;
-  color: #ddd;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #888;
+  vertical-align: bottom;
 }
 
 .button-social:hover {
