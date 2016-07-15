@@ -98,7 +98,7 @@ section {
   background-image: url("https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/13118832_775895499179303_8295611816096080990_n.jpg?oh=93446f7d2bbc701a763e128a4a69b517&oe=579AC9F5");
   background-color: #fff;
   background-repeat: no-repeat;
-  background-repeat:center;
+  background-position:center;
   background-size: cover;
   background-attachment: fixed;
   color: #ddd;
@@ -119,7 +119,7 @@ section {
   text-align: center;
   background-color: #95C2CF;
   background-repeat: no-repeat;
-  background-repeat:center;
+  background-position:center;
   background-size: cover;
   background-attachment: fixed;
   color: #ddd;
