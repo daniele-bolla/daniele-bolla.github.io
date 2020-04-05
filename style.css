@@ -332,39 +332,56 @@ select {
 
   html {font-size: 100%;} /*16px*/
  
-  .back{
-    position:absolute;
-    width:100vw;
-    height:100vh;
-    background-color: #fff;
-  background-image: url("https://wallpaperaccess.com/full/1153288.jpg");
-    z-index:-99;
-  }
-  .left{
-    position: relative;
+
+.right {
+  flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #35363e;
+        background-color: #f9f9f9;
+      flex-direction: column;
+      padding:1em;
+      text-align: center;
 }
-.left::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: block;
-    position: absolute;
-    left: 0;
-    background: white;
-    mix-blend-mode: exclusion;
-}
-.right{
+.left{
+  flex: 1.5;
+  padding:1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f9f9f9;
+  flex-direction: column;
   position: relative;
+  background: #35363e;
 }
-.right::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  display: block;
-  position: absolute;
-  left: 0;
-  background: black;
-  mix-blend-mode: exclusion;
-}
+  body .left *{
+    color: #f9f9f9!important;
+  }
+  body .right *{
+    color: #35363e!important;
+  }
+  .main{
+  display: flex;
+   margin: 0 auto;
+   border-radius: 1em;
+   padding: 0;
+   box-shadow: 0 0 2em rgba(0,0,0,.2);
+   max-width: 1200px;
+   height: 100%;
+   background-color: #f9f9f9;
+   /* box-shadow: 3px 3px 6px #ddd, 0px 4px 3px #eee; */
+   align-items: stretch;
+    
+  }
+  nav.social a i{
+    margin: 1em 0;
+    font-size: 1.17em;
+    padding: 0.4rem;
+  }
+  @media screen and (max-width: 992px) {
+    .main{
+      flex-direction: column;
+    }
+  }
+  
