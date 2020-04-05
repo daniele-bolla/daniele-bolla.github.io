@@ -85,6 +85,9 @@ select {
   
  body {
     font-size: 16px;
+    height: 100vh; position:relative;
+    background: #f9f9f9;
+ -webkit-font-smoothing:"antialiased;"
   }
   
  ::-moz-selection {
@@ -332,7 +335,9 @@ select {
 
   html {font-size: 100%;} /*16px*/
  
-
+.wrap{
+  height: 100%; padding:3em 2em
+}
 .right {
   flex: 1;
       display: flex;
