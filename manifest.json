@@ -3,7 +3,7 @@
   "short_name": "DwD",
   "theme_color": "#35363e",
   "background_color": "#f9f9f9",
-  "display": "browser",
+  "display": "standalone",
   "Scope": "/",
   "start_url": "/",
   "icons": [
