@@ -75,7 +75,7 @@ strong {
 
 .wrap {
     height: 100%;
-    padding: 3em 2em
+    padding: 6em 2em
 }
 
 .main {
@@ -99,6 +99,9 @@ strong {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+    .wrap {
+        padding: 3em 2em
     }
 }
 
