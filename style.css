@@ -188,6 +188,6 @@ nav.social a svg {
 
 @media screen and (max-width: 600px) {
   .hide-on-mobile {
-    display: none;
+    display: none!important;
   }
 }
