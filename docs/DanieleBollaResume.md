@@ -51,7 +51,7 @@
 • Optimizing application performance and ensuring cross-browser compatibility  
 • Implemented responsive design principles for mobile-first development  
 
-### **[Vivid IoV Labs** | Full Stack Developer (Frontend Heavy)](peerkat.com)
+### **Vivid IoV Labs** | Full Stack Developer (Frontend Heavy)**
 *2021 - November 2024*
 
 **Key Projects & Achievements:**
